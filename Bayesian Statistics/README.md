@@ -2,7 +2,7 @@
 
 This project applies **Bayesian logistic regression** to predict MMA (UFC) fight outcomes based on fighter statistics such as striking defense, knockout power, and ground impact. The analysis is implemented in **PyMC** using a custom Jupyter notebook.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
