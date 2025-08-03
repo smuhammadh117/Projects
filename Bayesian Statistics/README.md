@@ -5,9 +5,9 @@ This project applies **Bayesian logistic regression** to predict MMA (UFC) fight
 ## Project Structure
 
 ```
-.
-├── RawData-2.xlsx               # Raw data from UFC site
-├── MMAProject-2.csv            # Manipulated data using feature extraction
+
+├── RawData-2.xlsx          # Raw data from UFC site
+├── MMAProject-2.csv        # Manipulated data using feature extraction
 ├── BayesianProject-2.pynb  # Jupyter notebook for training and testing data using Bayesian Statistics
 ├── requirements.txt        # Required Python packages
 ├── BayesianProject.py      # File to run predictions
