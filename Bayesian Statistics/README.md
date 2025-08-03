@@ -6,10 +6,11 @@ This project applies **Bayesian logistic regression** to predict MMA (UFC) fight
 
 ```
 .
-├── data/                   # Fighter stats and feature engineering (if any)
-├── notebook.ipynb          # Main Bayesian modeling and evaluation notebook
-├── report.pdf              # Full report explaining methodology and results
+├── RawData-2.xlsx               # Raw data from UFC site
+├── MMAProject-2.csv            # Manipulated data using feature extraction
+├── BayesianProject-2.pynb  # Jupyter notebook for training and testing data using Bayesian Statistics
 ├── requirements.txt        # Required Python packages
+├── BayesianProject.py      # File to run predictions
 ```
 
 ## Setup Instructions
@@ -40,17 +41,18 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Then open the notebook (e.g., `notebook.ipynb`) in your browser.
+Then open the notebook BayesianProject-2.pynb in your browser.
 
 ## Methodology
 
-- Logistic regression modeled using PyMC with binomial likelihood
+- Run the pynb file which implements logistic regression modeled using PyMC with binomial likelihood
 - Fighter features include:
   - **SA**: Strikes Absorbed
   - **SD**: Striking Defense
   - **KO**: Knockout Power
   - **SS**: Standing Strikes
   - **GI**: Ground Impact (takedowns × submissions)
+- Once the testing is finished, the last cell can be used to run predictions on any fighters available within the MMAProject-2.csv file
 
 ### Model Fit
 
