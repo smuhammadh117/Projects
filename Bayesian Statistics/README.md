@@ -61,7 +61,7 @@ Then open the notebook (e.g., `notebook.ipynb`) in your browser.
 
 ## Report
 
-📄 Read the full project report [here](https://github.com/smuhammadh117/Projects/blob/main/Bayesian Statistics/UFCModelBayesianStatistics-2.pdf)
+Read the full project report [here](https://github.com/smuhammadh117/Projects/blob/main/Bayesian%20Statistics/UFCModelBayesianStatistics-2.pdf)
 
 ## References
 
