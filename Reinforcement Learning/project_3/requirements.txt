@@ -1,0 +1,19 @@
+# Torch & dependencies
+torch==2.2.0
+numpy==1.26.4
+
+# Overcooked AI environment (specific commit)
+git+https://github.com/HumanCompatibleAI/overcooked_ai.git@0a6ab67
+
+# Gym for environment simulation
+gym==0.26.2
+
+# Visualization
+matplotlib==3.8.4
+Pillow==10.3.0
+ipython==8.24.0
+ipykernel==6.29.4
+
+# Optional (Google Colab / Google Drive support, if needed)
+# google-colab
+# gdown
